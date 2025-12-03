@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol | Yemek Dünyam</title>
+    <link rel="stylesheet" href="kayitol.css">
+</head>
+<body>
+    <header id="site-başlık">
+        <h1 id="site-başlık-yazı"><a href="anasayfa.html">Yemek Dünyam</a></h1>
+    </header>
+
+    <main id="kayıt-ana">
+        <h2 id="kayıt-başlık">Yeni Kullanıcı Kaydı</h2>
+        <form id="kayıt-formu" action="#" method="post">
+            <div id="adsoyadı-bölüm">
+                <label for="adsoyadı">Ad Soyad:</label>
+                <input type="text" id="adsoyadı" name="fullname" required>
+            </div>
+            <div id="kullanıcı-adı-bölüm">
+                <label for="kullanıcı-adı">Kullanıcı Adı:</label>
+                <input type="text" id="kullanıcı-adı" name="username" required>
+            </div>
+            <div id="eposta-bölüm">
+                <label for="eposta">E-posta Adresi:</label>
+                <input type="email" id="eposta" name="email" required>
+            </div>
+            <div id="şifre-bölüm">
+                <label for="şifre">Şifre:</label>
+                <input type="password" id="şifre" name="password" required>
+            </div>
+            <div id="şifre-tekrar-bölüm">
+                <label for="şifre-tekrar">Şifre (Tekrar):</label>
+                <input type="password" id="şifre-tekrar" name="password_confirm" required>
+            </div>
+            <div id="buton-bölüm">
+                <button type="submit">Kayıt Ol</button>
+            </div>
+        </form>
+        <p id="giriş-linki">Zaten bir hesabın var mı? <a href="giriş.html">Giriş Yap</a></p>
+    </main>
+
+    <footer id="site-altbilgi">
+        <p>&copy; 2025 Yemek Dünyam. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

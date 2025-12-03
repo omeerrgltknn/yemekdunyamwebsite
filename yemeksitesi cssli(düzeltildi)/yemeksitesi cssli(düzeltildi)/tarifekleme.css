@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+#site-başlık {
+    background-color: #FF8C00;
+    padding: 20px;
+    text-align: center;
+}
+
+#site-başlık-yazı a {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#tarif-ekle-ana {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#tarif-ekle-başlık {
+    font-size: 28px;
+    color: #FF8C00;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#tarif-bilgisi {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+#tarif-formu {
+    border: 2px solid #FF8C00;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#başlık-bölüm,
+#açıklama-bölüm,
+#malzemeler-bölüm,
+#talimatlar-bölüm,
+#fotoğraf-bölüm {
+    margin-bottom: 20px;
+}
+
+#tarif-formu label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#tarif-başlığı,
+#tarif-açıklaması,
+#malzemeler,
+#talimatlar,
+#tarif-fotoğrafı {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+#tarif-başlığı:focus,
+#tarif-açıklaması:focus,
+#malzemeler:focus,
+#talimatlar:focus,
+#tarif-fotoğrafı:focus {
+    outline: none;
+    border-color: #FF8C00;
+}
+
+#buton-bölüm {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#buton-bölüm button {
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buton-bölüm button:hover {
+    background-color: #E67E00;
+}
+
+#site-altbilgi {
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#site-altbilgi p {
+    font-size: 14px;
+}

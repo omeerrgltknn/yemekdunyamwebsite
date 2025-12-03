@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+#site-başlık {
+    background-color: #FF8C00;
+    padding: 20px;
+    text-align: center;
+}
+
+#site-başlık-yazı a {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#giriş-ana {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#giriş-başlık {
+    font-size: 28px;
+    color: #FF8C00;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#giriş-formu {
+    border: 2px solid #FF8C00;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#kullanıcı-adı-bölüm,
+#şifre-bölüm {
+    margin-bottom: 15px;
+}
+
+#giriş-formu label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#kullanıcı-adı,
+#şifre {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#buton-bölüm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#buton-bölüm button {
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buton-bölüm button:hover {
+    background-color: #E67E00;
+}
+
+#kayıt-linki {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#kayıt-linki a {
+    color: #FF8C00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#site-altbilgi {
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Tarif Ekle | Yemek Dünyam</title>
+    <link rel="stylesheet" href="tarifekleme.css">
+</head>
+<body>
+    <header id="site-başlık">
+        <h1 id="site-başlık-yazı"><a href="anasayfa.html">Yemek Dünyam</a></h1>
+    </header>
+
+    <main id="tarif-ekle-ana">
+        <h2 id="tarif-ekle-başlık">Yeni Tarif Ekle</h2>
+        <p id="tarif-bilgisi">Tarifiniz admin onayından geçtikten sonra sitede yayınlanacaktır.</p>
+
+        <form id="tarif-formu" action="#" method="post" enctype="multipart/form-data">
+            <div id="başlık-bölüm">
+                <label for="tarif-başlığı">Tarif Başlığı:</label>
+                <input type="text" id="tarif-başlığı" name="recipe_title" required>
+            </div>
+            <div id="açıklama-bölüm">
+                <label for="tarif-açıklaması">Kısa Açıklama (Ana sayfada görünecek):</label>
+                <textarea id="tarif-açıklaması" name="recipe_summary" rows="3"></textarea>
+            </div>
+            <div id="malzemeler-bölüm">
+                <label for="malzemeler">Malzemeler (Her birini yeni satıra yazın):</label>
+                <textarea id="malzemeler" name="recipe_ingredients" rows="10" required></textarea>
+            </div>
+            <div id="talimatlar-bölüm">
+                <label for="talimatlar">Hazırlanışı (Adım adım anlatın):</label>
+                <textarea id="talimatlar" name="recipe_instructions" rows="15" required></textarea>
+            </div>
+            <div id="fotoğraf-bölüm">
+                <label for="tarif-fotoğrafı">Tarif Fotoğrafı:</label>
+                <input type="file" id="tarif-fotoğrafı" name="recipe_photo" accept="image/jpeg, image/png">
+            </div>
+            <div id="buton-bölüm">
+                <button type="submit">Onaya Gönder</button>
+            </div>
+        </form>
+    </main>
+
+    <footer id="site-altbilgi">
+        <p>&copy; 2025 Yemek Dünyam. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
